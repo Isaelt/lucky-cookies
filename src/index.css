@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(86, 83, 83);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 2rem;
+
+}
+
+.lucky-cookie{
+  background-color: white;
+  text-align: center;
+  padding: 2rem;
+  border-radius: .5rem;
+  max-width: 500px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
+  margin: 0 auto;
+}
