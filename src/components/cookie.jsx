@@ -1,10 +1,7 @@
-const LuckyCookie = () => {
+const LuckyCookie = ({data}) => {
     return(
         <article className="lucky-cookie">
-            <p>frase de la suerte</p>
-            <div>
-            <button> <i className='bx bx-shuffle bx-sm'></i></button>
-            </div>
+            <p>{data.phrase}</p>
         </article>
     )
 }
