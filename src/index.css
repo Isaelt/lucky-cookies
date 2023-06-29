@@ -22,9 +22,13 @@ body{
 }
 
 .btn-position{
+  bottom:0vh;
   position:absolute;
-  display:block;
+  display:flex;
+  justify-content: center;
   padding: 2rem 6rem;
+  margin: 0 auto;
+
 }
 
 .btn-lucky{
@@ -37,8 +41,15 @@ body{
 }
 
 .author{
+  background-color:aliceblue;
+  text-align: center;
+  padding: 2rem;
+  border-radius: .5rem;
+  max-width: 20rem;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
   letter-spacing: .1rem;
   font-size:large;
   padding: 1rem ;
   text-align: center;
+  font-style: italic;
 }
